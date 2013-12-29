@@ -6,10 +6,9 @@
 echo "VirualEnv Jython Jar Fun"
 echo $VIRTUAL_ENV
 
-JYTHON_INSTALL="$HOME/jython2.7b1"
+JYTHON_INSTALL="/opt/jython2.7b1"
 
 CUR_DIR="${PWD}"
-#cd $VIRTUAL_ENV
 
 cd $JYTHON_INSTALL
 

@@ -37,7 +37,7 @@ script will check for both these conditions and error if either is not met.
 <table>
   <tr>
     <td><code>PACKAGE = 'blah'</code></td>
-    <td>Jython code should be organized in a single package, a directory with a <code>__init__.py</code> file. 
+    <td>Jython code should be organized in a single package, a directory with an <code>__init__.py</code> file. 
     Optionally, <code>__init__.py</code> can provide a <code>__version__</code> which will be in the <code>JAR_NAME.</code></td>
   </tr>
   <tr>
@@ -47,7 +47,7 @@ script will check for both these conditions and error if either is not met.
   </tr>
 </table>
 
-### Optionallly Configure Parameters
+### Optionally Configure Parameters
 
 These variables are required but probably do not need to be changed
 
@@ -128,6 +128,10 @@ needed for distribution (e.g., requests vs py.test).
   archive.
 - [Jar file format on wiki might be worth a
   look](http://en.wikipedia.org/wiki/JAR_%28file_format%29)
+- After doing much of this work, I found out about
+  [clamped](https://github.com/jimbaker/clamped) which is only a few months old
+  by looks like a promising solution. I'd start there if I had to do this all
+  over again.
 
 [1]: http://www.jython.org/
 [2]: http://www.jython.org/downloads.html

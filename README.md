@@ -3,7 +3,8 @@ Jython in a Jar
 
 [Jython][1] is Python on the JVM. It can be easily [downloaded][2] and run
 anywhere there is Java. There are many reasons to use Jython. If someone using
-Jython is less familiar with Java as a platform this information may be helpful
+Jython is less familiar with Java as a platform this information may be
+helpful.
 
 The intention of this repository is to outline some of the issues associated
 with packaging a Jython application into a single distributable jar file and

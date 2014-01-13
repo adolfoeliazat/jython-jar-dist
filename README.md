@@ -111,15 +111,22 @@ needed for distribution (e.g., requests vs py.test).
 
 #### References
 
-[Slides on Jython tools](http://www.slideshare.net/fwierzbicki/jython-update-2012)
-
-[Install external pkgs w jython](http://stackoverflow.com/questions/6787015/how-can-i-install-various-python-libraries-in-jython)
-
-[Jython Essentials -- Online book](http://oreilly.com/catalog/jythoness/chapter/ch01.html)
-
-[5 things you didn't know about jars](http://www.ibm.com/developerworks/java/library/j-5things6/index.html)
-
-[Jar file format on wiki might be worth a look](http://en.wikipedia.org/wiki/JAR_%28file_format%29)
+- [Slides on Jython
+  tools](http://www.slideshare.net/fwierzbicki/jython-update-2012) and where
+  Jython is headed. This deck roughly outlines the process required for
+  creating a jar.
+- [Install external pkgs w
+  jython](http://stackoverflow.com/questions/6787015/how-can-i-install-various-python-libraries-in-jython)
+  is a helpful SO post.
+- [Jython Essentials -- Online
+  book](http://oreilly.com/catalog/jythoness/chapter/ch01.html) is worth
+  referencing.
+- [5 things you didn't know about
+  jars](http://www.ibm.com/developerworks/java/library/j-5things6/index.html)
+  by IBM has some interesting info on what makes jars different than an other
+  archive.
+- [Jar file format on wiki might be worth a
+  look](http://en.wikipedia.org/wiki/JAR_%28file_format%29)
 
 [1]: http://www.jython.org/
 [2]: http://www.jython.org/downloads.html

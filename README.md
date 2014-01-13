@@ -31,43 +31,43 @@ in the correct place and then zip them up.
 This approach assumes you are using a virtualenv with a Jython interpreter. The
 script will check for both these conditions and error if either is not met. 
 
-### Parameters: **MUST Configure**
+### **MUST** Configure Parameters
 
 <table>
   <tr>
-    <td>`PACKAGE = 'blah'`</td>
-    <td>Jython code should be organized in a single package, a directory with a `__init__.py` file. 
-    Optionally, `__init__.py` can provide a `__version__` which will be in the `JAR_NAME`.</td>
+    <td><code>PACKAGE = 'blah'</code></td>
+    <td>Jython code should be organized in a single package, a directory with a <code>__init__.py</code> file. 
+    Optionally, <code>__init__.py</code> can provide a <code>__version__</code> which will be in the <code>JAR_NAME.</code></td>
   </tr>
   <tr>
-    <td>`RUN_FILE = '__run__.py'`</td>
+    <td><code>RUN_FILE = '__run__.py'</code></td>
     <td>The Jython jar will look for a run file when executed without a specific file as argument. 
-    Think of this as the `main`. In the `jar`, it must be called `__run__.py`.</td>
+    Think of this as the <code>main</code>. In the jar, it must be called <code>__run__.py</code>.</td>
   </tr>
 </table>
 
-### Parameters: **Optional Configuration**
+### Optionallly Configure Parameters
 
 These variables are required but probably do not need to be changed
 
 <table>
   <tr>
-    <td>`PWD = dirname(abspath(__file__))`</td>
+    <td><code>PWD = dirname(abspath(__file__))</code></td>
     <td>This is the absolute path to the project directory. 
     By default, it is automatically set the directory the build script is in.</td>
   </tr>
   <tr>
-    <td>`BUILD_DIR = '_build'`</td>
-    <td>This directory is used to assemble the `jar`.</td>
+    <td><code>BUILD_DIR = '_build'</code></td>
+    <td>This directory is used to assemble the jar.</td>
   </tr>
   <tr>
-    <td>`DIST_DIR = 'dist'`</td>
-    <td>This directory is the final resting place for the `jar`.</td>
+    <td><code>DIST_DIR = 'dist'</code></td>
+    <td>This directory is the final resting place for the jar.</td>
   </tr>
   <tr>
-    <td>`EXTERNAL_JARS = ('lib/*.jar', )`</td>
+    <td><code>EXTERNAL_JARS = ('lib/*.jar', )</code></td>
     <td>This is a tuple of paths that will be globbed for jar files to include. 
-    You can place any external java jar libraries in the `lib` directory or modify 
+    You can place any external java jar libraries in the lib directory or modify 
     this parameter with explicit paths, relative or absolute.</td>
   </tr>
 </table>
